@@ -1,14 +1,14 @@
 /* changed asset folder temp comment */
 :root
 {
-    /* zdefine color scheme */
+    /* color scheme */
     --color-top-pane       :#ffffff;
     --color-middle-pane    :#ededed;
-    --color-bottom-pane    :#666666;
-    --color-mint-green     :#4aaaa5;
+    --color-bottom-pane    :#ece6e6;
+    --color-light-gray     :#78839b;
     --color-separator      :#d8d8d8;
-    --color-text           :#202020;
-    --color-text-highlight :#777777;
+    --color-text           :#FFDAB9;
+    --color-text-highlight :rgb(252, 250, 244);
 }
 body 
 {
@@ -27,7 +27,7 @@ body
     clear    :both;
 }
 h1, h2 {
-    color      :var(--color-mint-green);
+    color      :var(--color-light-gray);
     font-family:"Georgia", "Times", "Times New Roman", serif;
     font-weight:bold;
 }
@@ -49,7 +49,7 @@ strong {
     border-bottom  :2px solid var(--color-separator);
 }
 #website_name {
-    background-color    :var(--color-mint-green);
+    background-color    :var(--color-light-gray);
     color               :var(--color-top-pane);
     font-family         :"Georgia", "Times", "Times New Roman", serif;
     font-size           :1.9em;
@@ -149,7 +149,7 @@ the left and right panes have a width of 650px and 270px, respectively. */
     margin       :25px 20px 0 20px;
 }
 .left_pane .portfolio figcaption {
-    background-color     :var(--color-mint-green);
+    background-color     :var(--color-light-gray);
     color                :var(--color-top-pane);
     font-size            :1.1em;
     line-height          :1.2em;
@@ -196,7 +196,7 @@ the left and right panes have a width of 650px and 270px, respectively. */
     padding           :8px 4px 8px 12px;
 }
 .left_pane #form_submit {
-    background-color: var(--color-mint-green);
+    background-color: var(--color-light-gray);
     color           : var(--color-top-pane);
     font-size       : 1.3em;
     font-weight     : bold;
@@ -256,7 +256,7 @@ the left and right panes have a width of 650px and 270px, respectively. */
 #bottom_pane {
     background-color: var(--color-dark-theme);
     
-    border-top      : 15px solid var(--color-mint-green);
+    border-top      : 15px solid var(--color-light-gray);
     padding         : 40px;
 }
 
@@ -280,7 +280,7 @@ the left and right panes have a width of 650px and 270px, respectively. */
 *****************************************************************************/
 @media all and (max-width: 980px) and (min-width: 768px), all and (max-device-width: 980px) and (min-device-width: 768px) {
     :root {
-        --color-mint-green: #4aaaa5;
+        --color-light-gray: #78839b;
     }
 
     .container {
@@ -396,7 +396,7 @@ the left and right panes have a width of 650px and 270px, respectively. */
 *****************************************************************************/
 @media all and (max-width: 768px) and (min-width: 641px), all and (max-device-width: 768px) and (min-device-width: 641px) {
     :root {
-        --color-mint-green: #4aaaa5;
+        --color-light-gray: #78839b;
     }
 
     body {
@@ -543,7 +543,7 @@ the left and right panes have a width of 650px and 270px, respectively. */
 *****************************************************************************/
 @media all and (max-width: 640px), all and (max-device-width: 640px) {
     :root {
-        --color-mint-green: #4aaaa5;
+        --color-light-gray: #78839b;
     }
 
     body {
@@ -708,3 +708,12 @@ the left and right panes have a width of 650px and 270px, respectively. */
         padding: 5.5%;
     }
 }
+
+.site-footer {
+    background-color: #fff;
+    color: #FFDAB9;
+  }
+  
+  .site-footer a {
+    color: #FFDAB9;
+  }
