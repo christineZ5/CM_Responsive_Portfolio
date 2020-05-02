@@ -5,7 +5,7 @@
     --color-top-pane       :#ffffff;
     --color-middle-pane    :#ededed;
     --color-bottom-pane    :#ece6e6;
-    --color-light-gray     :#78839b;
+    --color-grey           :#78839b;
     --color-separator      :#d8d8d8;
     --color-text           :#FFDAB9;
     --color-text-highlight :rgb(252, 250, 244);
@@ -27,7 +27,7 @@ body
     clear    :both;
 }
 h1, h2 {
-    color      :var(--color-light-gray);
+    color      :var(--color-grey);
     font-family:"Georgia", "Times", "Times New Roman", serif;
     font-weight:bold;
 }
